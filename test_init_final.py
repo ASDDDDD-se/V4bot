@@ -2101,7 +2101,7 @@ while True:
 						kill_Data.append(tmp_fk)
 						tmp_fk = []
 					embed = discord.Embed(
-							description= ':skull_crossbones:' + sayMessage + ' 따히! [' + str(abc) + '번]\n',
+							description= ':skull_crossbones:' + sayMessage + ' 컷! [' + str(abc) + '번]\n',
 							color=0xff00ff
 							)
 					await ctx.send(embed=embed, tts=False)
